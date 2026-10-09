@@ -1,0 +1,141 @@
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+  background: linear-gradient(135deg, #f9f9fb 0%, #eaeaff 100%);
+  border-radius: 20px;
+}
+
+
+.hero {
+  flex: 1;
+  text-align: left;
+  padding: 40px;
+}
+
+.tagline {
+  background-color: #dfdff8;
+  border-radius: 25px;
+  width: fit-content;
+  padding: 6px 14px;
+  border-radius: 12px;
+  color: #7379ee;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.tagline2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #333;
+  margin: 20px 0;
+}
+
+#amazing {
+  color: #7379ee;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.btn-primaryIn {
+  background: linear-gradient(90deg, #7379ee, #5a3fff);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primaryIn:hover {
+  box-shadow: 0 6px 15px rgba(90, 63, 255, 0.4);
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background: white;
+  color: #7379ee;
+  border: 2px solid #7379ee;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: #7379ee;
+  color: white;
+}
+
+
+.analytics {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 25px;         
+  border: 25px solid #7379ee;   
+  box-shadow: 0 6px 18px rgba(115, 121, 238, 0.3);
+  width: 340px;
+  text-align: center;
+  padding: 25px;
+
+  overflow: hidden;
+}
+
+
+
+.card .title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  border-radius: 25px;
+
+}
+
+.graph {
+  height: 150px;
+  margin: 15px 0;
+  background: linear-gradient(180deg, #dfdff8 0%, #ffffff 100%);
+  border-radius: 10px;
+  border:thick;
+  
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #7379ee;
+}
+
+
+.stats {
+  margin-top: 15px;
+}
+
+.stats span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7379ee;
+  display: block;
+}
+
+.stats p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 5px;
+}
+
